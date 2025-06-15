@@ -1,8 +1,14 @@
-// Detectar en qué página estamos
-const path = window.location.pathname;
+// src/script.js
 
-if (path.includes("am.html") || path.includes("gk.html")) {
-  // --- Código para am.html y gk.html ---
+// Detectar en qué página estamos
+const path = window.location.href;
+
+if (
+  path.includes("astramilitarum.html") ||
+  path.includes("greyknights.html") ||
+  path.includes("adeptasororitas.html")
+) {
+  // --- Código para astramilitarum.html, greyknights.html y adeptasororitas.html ---
   const selectedImages = new Set();
 
   const gallery = document.getElementById("gallery");
@@ -52,7 +58,7 @@ if (path.includes("am.html") || path.includes("gk.html")) {
   const volverBtn = document.getElementById("volverBtn");
   const btnTachon = document.getElementById("activarTachon");
 
-  let paginaAnterior = localStorage.getItem("paginaAnterior") || "index.html";
+  let paginaAnterior = localStorage.getItem("paginaAnterior");
   volverBtn.addEventListener("click", () => {
     window.location.href = paginaAnterior;
   });
@@ -68,7 +74,7 @@ if (path.includes("am.html") || path.includes("gk.html")) {
     wrapper.classList.add("image-container");
 
     const img = document.createElement("img");
-    img.src = "../assets/" + filename; // Ruta corregida
+    img.src = "../assets/" + filename;
 
     wrapper.appendChild(img);
     contenedor.appendChild(wrapper);
