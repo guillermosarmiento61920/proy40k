@@ -10,12 +10,10 @@ img {
 }
 
 .tamanoImg {
-  width: 50%;
-  height: auto;
-  display: block;
+  width: 45%;
+  height: 40vw;
+  display: inline-block;
   position: relative;
-  align-content: center;
-  align-items: center;
   border-color: black;
   margin-bottom: 20px;
 }
@@ -37,7 +35,7 @@ img {
   z-index: 2;
 }
 
-header.seleccion {
+header.seleccionHeader {
   position: fixed; /* fijo arriba */
   top: 0;
   left: 0;
