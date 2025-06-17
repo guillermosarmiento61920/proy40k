@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ArmyRule",
+    "description": "If your Army Faction is ASTRA MILITARUM, OFFICER models with this ability can issue Orders. Each OFFICERs datasheet will specify how many Orders it can issue in a battle round and which units are eligible to receive those Orders. Each time an Officer model issues an Order, select one of the Orders below, then select one eligible friendly unit within 6in of that Officer model to issue it to. OFFICER models can issue Orders in your Command phase and at the end of a phase in which they disembarked from a TRANSPORT or were set up on the battlefield. Until the start of your next Command phase, the unit you selected is affected by that Order. Unless otherwise stated, a unit can only be affected by one Order at a time (any Order subsequently issued to that unit replaces the current one). Orders cannot be issued to Battle-shocked units, and if a unit being affected by an Order becomes Battle-shocked, that Order ceases to affect that unit. Only ASTRA MILITARUM models gain the benefit of an Order issued to their unit.",
+    "orders": [
+      "First Rank, Fire! Second Rank, Fire!: +1 A to Rapid Fire weapons // ",
+      "Take Aim!: +1 to BS // ",
+      "Take Cover!: +1 to Save to a minimum of 3+ // ",
+      "Duty and Honour!: +1 to Ld and OC // ",
+      "Move! Move! Move!: +3in to M // ",
+      "Fix Bayonets!: +1 to WS // "
+    ]
+  },
+  {
+    "name": "CombinedArms",
+    "description": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
+    "Death Mask of Ollanius (10 pts):": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.",
+    "Drill Commander (20 pts):": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
+    "Grand Strategist (15 pts):": "OFFICER model only. In your Command phase, the bearer can issue one additional Order.",
+    "Reactive Command (15 pts):": "OFFICER model only. Each time an enemy unit is set up within 9in of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
+    "COORDINATED ACTION (1CP) - Battle Tactic": "WHEN: Start of any phase. // TARGET: One REGIMENT unit from your army and one SQUADRON unit from your army within 6in of and visible to that REGIMENT unit. // EFFECT: Until the end of the phase, Orders affecting one of your units affect the other, and vice versa.",
+    "REINFORCEMENTS! (2CP) - Strategic Ploy": "WHEN: Any phase. // TARGET: One INFANTRY REGIMENT unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed. // EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining. // RESTRICTIONS: This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle.",
+    "FLEXIBLE COMMAND (2CP) - Strategic Ploy": "WHEN: Your Command phase. // TARGET: Any number of ASTRA MILITARUM OFFICER units from your army. // EFFECT: Until the end of the phase, your Officers can issue Orders to REGIMENT units and SQUADRON units.",
+    "FIELDS OF FIRE (1CP) - Battle Tactic": "WHEN: Your Shooting phase. // TARGET: One REGIMENT unit and one SQUADRON unit from your army that have not been selected to shoot this phase. // EFFECT: Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+    "INSPIRED COMMAND (1CP) - Epic Deed": "WHEN: Your opponent’s Command phase. // TARGET: One ASTRA MILITARUM OFFICER unit from your army. // EFFECT: Your OFFICER can issue one Order as if it were your Command phase.",
+    "STALWART PROTECTOR (1CP) - Battle Tactic": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets. // TARGET: One ASTRA MILITARUM VEHICLE unit from your army. // EFFECT: Until the end of the phase, each time a ranged attack is allocated to an INFANTRY model from your army, if that model is not fully visible to every model in the attacking unit because of your VEHICLE, that model has the Benefit of Cover against that attack."
+  },
+  {
+    "name": "HammerOfTheEmperor",
+    "description": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6in to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models.",
+    "enhancements": 80,
+    "stratagems": "../assets/amdet2.png"
+  }
+]

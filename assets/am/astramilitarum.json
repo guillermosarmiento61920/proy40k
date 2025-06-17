@@ -1,0 +1,20 @@
+[
+  {
+    "name": "CadianShockTroops",
+    "type": "Infantry",
+    "cost": 100,
+    "abilities": ["Rapid Fire", "Take Cover"]
+  },
+  {
+    "name": "LemanRussBattleTank",
+    "type": "Vehicle",
+    "cost": 250,
+    "abilities": ["Heavy Armor", "Battle Cannon"]
+  },
+  {
+    "name": "SentinelWalker",
+    "type": "Walker",
+    "cost": 80,
+    "abilities": ["Scout", "Multi-laser"]
+  }
+]

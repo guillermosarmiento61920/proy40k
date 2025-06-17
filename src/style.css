@@ -1,58 +1,6 @@
-/* src/style.css */
-
-img {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-  border: 2px solid transparent;
-  display: block;
-  position: relative;
-}
-
-.tamanoImg {
-  width: 45%;
-  height: 40vw;
-  display: inline-block;
-  position: relative;
-  border-color: black;
-  margin-bottom: 20px;
-}
-
-.selected {
-  border-color: blue;
-}
-
-.image-container {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.tachon {
-  position: absolute;
-  background-color: black;
-  opacity: 1;
-  pointer-events: none;
-  z-index: 2;
-}
-
-header.seleccionHeader {
-  position: fixed; /* fijo arriba */
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white; /* fondo blanco */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* opcional, para separarlo */
-  z-index: 1000;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: flex-start; /* o center / space-between */
-  align-items: center;
-  gap: 10px; /* espacio entre botones si están juntos */
-}
-
 /* Asegurarse que main no quede tapado por header fijo */
 main.seleccionMain {
-  padding-top: 60px; /* ajustar según la altura real del header */
+  padding-top: 20px;
 }
 
 .botonFijo {
@@ -67,12 +15,132 @@ main.seleccionMain {
   cursor: pointer;
 }
 
-/* Botón volver a la izquierda */
-#volverBtn {
-  left: 20px;
+.dropdown-checkbox {
+  position: relative;
+  display: inline-block;
 }
 
-/* Botón tachar a la derecha */
-#activarTachon {
-  right: 20px;
+.dropdown-btn {
+  padding: 8px 16px;
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  z-index: 1;
+  padding: 10px;
+  width: 200px;
+}
+
+.dropdown-content label {
+  display: block;
+  margin: 5px 0;
+}
+
+.dropdown-checkbox:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content-army {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  z-index: 1;
+  padding: 10px;
+  width: 200px;
+}
+
+.dropdown-content-army label {
+  display: block;
+  margin: 5px 0;
+}
+
+.dropdown-checkbox:hover .dropdown-content-army {
+  display: block;
+}
+
+/* Estilos para los checkboxes de propiedades */
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  display: block; /* Por defecto visible */
+}
+
+.unit-container {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.unit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-props {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: 0.8em;
+}
+
+.props-container {
+  display: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 3px;
+}
+
+.props-container.active {
+  display: block;
+}
+
+.prop-label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.prop-checkbox {
+  margin-right: 5px;
+}
+
+.unit-prop {
+  background: #f5f5f5;
+  padding: 8px;
+  border-radius: 3px;
+  margin: 5px 0;
+  word-wrap: break-word;
+  white-space: normal; /* Comportamiento normal de texto */
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.unit-image {
+  max-width: 60vw;
+  height: auto;
+  display: block;
+  margin: 10px 0;
 }
