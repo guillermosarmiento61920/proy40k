@@ -1,34 +1,60 @@
 [
   {
-    "name": "ArmyRule",
-    "description": "If your Army Faction is ASTRA MILITARUM, OFFICER models with this ability can issue Orders. Each OFFICERs datasheet will specify how many Orders it can issue in a battle round and which units are eligible to receive those Orders. Each time an Officer model issues an Order, select one of the Orders below, then select one eligible friendly unit within 6in of that Officer model to issue it to. OFFICER models can issue Orders in your Command phase and at the end of a phase in which they disembarked from a TRANSPORT or were set up on the battlefield. Until the start of your next Command phase, the unit you selected is affected by that Order. Unless otherwise stated, a unit can only be affected by one Order at a time (any Order subsequently issued to that unit replaces the current one). Orders cannot be issued to Battle-shocked units, and if a unit being affected by an Order becomes Battle-shocked, that Order ceases to affect that unit. Only ASTRA MILITARUM models gain the benefit of an Order issued to their unit.",
-    "orders": [
-      "First Rank, Fire! Second Rank, Fire!: +1 A to Rapid Fire weapons // ",
-      "Take Aim!: +1 to BS // ",
-      "Take Cover!: +1 to Save to a minimum of 3+ // ",
-      "Duty and Honour!: +1 to Ld and OC // ",
-      "Move! Move! Move!: +3in to M // ",
-      "Fix Bayonets!: +1 to WS // "
-    ]
+    "name": "armyRule",
+    "description": "../assets/am/amarmy.png"
   },
   {
-    "name": "CombinedArms",
-    "description": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
-    "Death Mask of Ollanius (10 pts):": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.",
-    "Drill Commander (20 pts):": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
-    "Grand Strategist (15 pts):": "OFFICER model only. In your Command phase, the bearer can issue one additional Order.",
-    "Reactive Command (15 pts):": "OFFICER model only. Each time an enemy unit is set up within 9in of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
-    "COORDINATED ACTION (1CP) - Battle Tactic": "WHEN: Start of any phase. // TARGET: One REGIMENT unit from your army and one SQUADRON unit from your army within 6in of and visible to that REGIMENT unit. // EFFECT: Until the end of the phase, Orders affecting one of your units affect the other, and vice versa.",
-    "REINFORCEMENTS! (2CP) - Strategic Ploy": "WHEN: Any phase. // TARGET: One INFANTRY REGIMENT unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed. // EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining. // RESTRICTIONS: This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle.",
-    "FLEXIBLE COMMAND (2CP) - Strategic Ploy": "WHEN: Your Command phase. // TARGET: Any number of ASTRA MILITARUM OFFICER units from your army. // EFFECT: Until the end of the phase, your Officers can issue Orders to REGIMENT units and SQUADRON units.",
-    "FIELDS OF FIRE (1CP) - Battle Tactic": "WHEN: Your Shooting phase. // TARGET: One REGIMENT unit and one SQUADRON unit from your army that have not been selected to shoot this phase. // EFFECT: Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
-    "INSPIRED COMMAND (1CP) - Epic Deed": "WHEN: Your opponent’s Command phase. // TARGET: One ASTRA MILITARUM OFFICER unit from your army. // EFFECT: Your OFFICER can issue one Order as if it were your Command phase.",
-    "STALWART PROTECTOR (1CP) - Battle Tactic": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets. // TARGET: One ASTRA MILITARUM VEHICLE unit from your army. // EFFECT: Until the end of the phase, each time a ranged attack is allocated to an INFANTRY model from your army, if that model is not fully visible to every model in the attacking unit because of your VEHICLE, that model has the Benefit of Cover against that attack."
+    "name": "combinedArms",
+    "description": "../assets/am/amdet1.png",
+    "deathMaskofOllanius-10pts": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.",
+    "drillCommander-20pts": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
+    "grandStrategist-15pts": "OFFICER model only. In your Command phase, the bearer can issue one additional Order.",
+    "reactiveCommand-15pts": "OFFICER model only. Each time an enemy unit is set up within 9in of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
+    "stratagems": "../assets/am/amstrg1.png"
   },
   {
-    "name": "HammerOfTheEmperor",
-    "description": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6in to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models.",
-    "enhancements": 80,
-    "stratagems": "../assets/amdet2.png"
+    "name": "siegeRegiment",
+    "description": "../assets/am/amdet2.png",
+    "eagerAdvance-20pts": "INFANTRY OFFICER model only. While the bearer is leading a REGIMENT unit, that unit has the Scouts 6in ability.",
+    "flashGrenades-20pts": "INFANTRY OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+    "legacySidearm-10pts": "INFANTRY OFFICER model only. Add 2 to the Attacks characteristics of the bearers Pistols.",
+    "stalwartsHonours-15pts": "OFFICER model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order.",
+    "stratagems": "../assets/am/amstrg2.png"
+  },
+  {
+    "name": "mechanisedAssault",
+    "description": "../assets/am/amdet3.png",
+    "boldLeadership-25pts": "INFANTRY OFFICER model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "sacredUnguents-10pts": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. At the start of your Shooting phase, select one TRANSPORT from your army (excluding AIRCRAFT and TITANIC units) within 3in of the bearer. Until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll.",
+    "smokeGrenades-10pts": "INFANTRY OFFICER model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3in of one or more friendly TRANSPORT models.",
+    "vanguardHonours-15pts": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
+    "stratagems": "../assets/am/amstrg3.png"
+  },
+  {
+    "name": "hammerOfTheEmperor",
+    "description": "../assets/am/amdet4.png",
+    "calmUnderFire-15pts": "VEHICLE OFFICER model only. Once per turn, after the bearer issues an Order to a SQUADRON unit from your army, it can issue the same Order to another SQUADRON unit from your army.",
+    "indomitableSteed-15pts": "VEHICLE OFFICER model only. The bearer has the Feel No Pain 6+ ability.",
+    "regimentalBanner-20pts": "VEHICLE OFFICER model only. Add 3 to the bearer’s Objective Control characteristic.",
+    "veteranCrew-20pts": "VEHICLE OFFICER model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1.",
+    "stratagems": "../assets/am/amstrg4.png"
+  },
+  {
+    "name": "reconElement",
+    "description": "../assets/am/amdet5.png",
+    "guerrillaHonours-25pts": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+    "scareGasGrenades-5pts": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8in of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test.",
+    "survivalGear-5pts": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6in ability.",
+    "tripwires-20pts": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 9in of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+    "stratagems": "../assets/am/amstrg5.png"
+  },
+  {
+    "name": "bridgeheadStrike",
+    "description": "../assets/am/amdet6.png",
+    "bombast-classVox-array-35pts": "MILITARUM TEMPESTUS OFFICER model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different REGIMENT units, instead of only one.",
+    "priority-dropBeacon-30pts": "MILITARUM TEMPESTUS OFFICER model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+    "shroudProjector-15pts": "MILITARUM TEMPESTUS OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+    "advanceAugury-15pts": "INFANTRY OFFICER model only. After both players have deployed their armies, select up to three REGIMENT units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+    "stratagems": "../assets/am/amstrg6.png"
   }
 ]

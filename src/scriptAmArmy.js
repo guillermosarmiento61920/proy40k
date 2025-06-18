@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const propValue = document.createElement("div");
       propValue.id = `prop-${unit.name}-${prop}`;
       propValue.className = "unit-prop";
-      if (prop === "stratagems") {
+      if (prop === "stratagems" || prop === "description") {
         const img = document.createElement("img");
         img.src = unit[prop];
         img.alt = unit.name;

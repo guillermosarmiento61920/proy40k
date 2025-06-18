@@ -1,0 +1,24 @@
+[
+  {
+    "name": "asArmyRule",
+    "description": "../assets/as/asarmy.png"
+  },
+  {
+    "name": "asDetatchment",
+    "description": "../assets/as/asdet.png",
+    "SaintlyExample-10pts": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.",
+    "ThroughSufferingStrength-25pts": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
+    "ChapletofSacrifice-25pts": "OFFICER model only. In your Command phase, the bearer can issue one additional Order.",
+    "MantleofOphelia-20pts": "OFFICER model only. Each time an enemy unit is set up within 9in of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
+    "stratagems": "../assets/as/asstrg.png"
+  },
+  {
+    "name": "siegeRegiment",
+    "description": "../assets/amdet2.png",
+    "eagerAdvance-20pts": "INFANTRY OFFICER model only. While the bearer is leading a REGIMENT unit, that unit has the Scouts 6in ability.",
+    "flashGrenades-20pts": "INFANTRY OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+    "legacySidearm-10pts": "INFANTRY OFFICER model only. Add 2 to the Attacks characteristics of the bearers Pistols.",
+    "stalwartsHonours-15pts": "OFFICER model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order.",
+    "stratagems": "../assets/amstrg2.png"
+  }
+]

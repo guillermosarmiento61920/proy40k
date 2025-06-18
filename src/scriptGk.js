@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const resultadoDiv = document.getElementById("resultado");
 
       try {
-        const response = await fetch("../assets/am/astramilitarum.json");
+        const response = await fetch("../assets/gk/greyknights.json");
         if (!response.ok) throw new Error("HTTP error");
         const data = await response.json();
 

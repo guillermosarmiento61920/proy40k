@@ -1,0 +1,211 @@
+[
+  {
+    "name": "BrotherCaptain",
+    "BrotherCaptain": "M5 T5 Sv2+/4++ W6 Ld6+ OC1",
+    "cost": 90,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 2+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 2+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 4 2+ 6 -2 2",
+    "img": "../assets/gk/gk1.png"
+  },
+  {
+    "name": "BrotherCaptainStern",
+    "BrotherCaptainStern": "M5 T5 Sv2+/4++ W6 Ld6+ OC1",
+    "cost": 90,
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "NemesisForceSword-PSYCHIC": "Melee 5 2+ 6 -2 2",
+    "img": "../assets/gk/gk2.png"
+  },
+  {
+    "name": "BrotherhoodChampion",
+    "BrotherhoodChampion": "M6 T4 Sv2+/4++ W4 Ld6+ OC1",
+    "cost": 70,
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "NemesisForceWeapon-PRECISION-PSYCHIC": "Melee 5 2+ 6 -2 2",
+    "img": "../assets/gk/gk3.png"
+  },
+  {
+    "name": "BrotherhoodChaplain",
+    "BrotherhoodChaplain": "M5 T5 Sv2+/4++ W5 Ld5+ OC1",
+    "cost": 75,
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "CroziusArcanum-PSYCHIC": "Melee 5 2+ 6 -1 2",
+    "img": "../assets/gk/gk4.png"
+  },
+  {
+    "name": "BrotherhoodLibrarian",
+    "BrotherhoodLibrarian": "M5 T5 Sv2+/4++ W5 Ld6+ OC1",
+    "cost": 120,
+    "CombiWeapon-ANTIINFANTRY4+-DEVASTATINGWOUNDS-RAPIDFIRE1": "24'' 1 4+ 4 0 1",
+    "PurgeSoulFocusedWitchfire-HAZARDOUS-PRECISION-PSYCHIC": "24'' 1 3+ 6 -2 3",
+    "PurgeSoulWitchfire-PSYCHIC": "24'' 1 3+ 6 -2 3",
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "NemesisForceSword-PSYCHIC": "Melee 4 2+ 6 -1 2",
+    "img": "../assets/gk/gk5.png"
+  },
+  {
+    "name": "CastellanCrowe",
+    "CastellanCrowe": "M6 T4 Sv2+/4++ W5 Ld6+ OC1",
+    "cost": 90,
+    "PurifyingFlame-ANTIINFANTRY2+-IGNORESCOVER-PSYCHIC": "18'' 3 2+ 4 -1 1",
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "BlackBladeofAntwyr-DEVASTATINGWOUNDS-PRECISION": "Melee 5 2+ 6 -2 2",
+    "img": "../assets/gk/gk6.png"
+  },
+  {
+    "name": "GrandMaster",
+    "GrandMaster": "M5 T5 Sv2+/4++ W7 Ld6+ OC1",
+    "cost": 95,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 2+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 2+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 5 2+ 6 -2 2",
+    "img": "../assets/gk/gk7.png"
+  },
+  {
+    "name": "GrandMasterinNemesisDreadknight",
+    "GrandMasterinNemesisDreadknight": "M8 T8 Sv2+/4++ W13 Ld6+ OC4",
+    "cost": 210,
+    "GatlingPsilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 12 3+ 6 0 1",
+    "HeavyIncinerator-IGNORESCOVER-TORRENT": "18'' 2D6 N/A 6 -1 1",
+    "HeavyPsycannon-IGNORESCOVER-PSYCHIC": "24'' 6 3+ 10 -2 3",
+    "Dreadfists": "Melee 6 3+ 6 -1 1",
+    "NemesisDaemonGreathammer-PSYCHIC": "Melee 5 3+ 14 -3 D6+1",
+    "NemesisGreatswordSweep-PSYCHIC": "Melee 10 2+ 5 -1 1",
+    "NemesisGreatswordStrike-PSYCHIC": "Melee 5 2+ 10 -2 D6",
+    "img": "../assets/gk/gk8.png"
+  },
+  {
+    "name": "GrandMasterVoldus",
+    "GrandMasterVoldus": "M5 T5 Sv2+/4++ W6 Ld6+ OC1",
+    "cost": 95,
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "MalleusArgyrum-PSYCHIC": "Melee 5 2+ 10 -2 3",
+    "img": "../assets/gk/gk9.png"
+  },
+  {
+    "name": "KaldorDraigo",
+    "KaldorDraigo": "M5 T5 Sv2+/4++ W7 Ld6+ OC1",
+    "cost": 125,
+    "Scourging-ANTIDAEMON2+-IGNORESCOVER-PSYCHIC": "18'' 3 2+ 6 -2 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "TheTitansword-ANTIDAEMON2+-PSYCHIC": "Melee 6 2+ 8 -4 3",
+    "img": "../assets/gk/gk10.png"
+  },
+  {
+    "name": "BrotherhoodTerminatorSquad",
+    "BrotherhoodTerminatorSquad": "M5 T5 Sv2+/4++ W3 Ld6+ OC2",
+    "cost-200-400": 200,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 3+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 3+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 4 3+ 6 -2 2",
+    "img": "../assets/gk/gk11.png"
+  },
+  {
+    "name": "StrikeSquad",
+    "StrikeSquad": "M6 T4 Sv2+ W2 Ld6+ OC2",
+    "cost-120-240": 120,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 3+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 3+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "CloseCombatWeapon": "Melee 3 3+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 3 3+ 6 -2 2",
+    "img": "../assets/gk/gk12.png"
+  },
+  {
+    "name": "GreyKnightVenerableDreadnought",
+    "GreyKnightVenerableDreadnought": "M6 T9 Sv2+ W8 Ld6+ OC3",
+    "cost": 155,
+    "AssaultCannon-DEVASTATINGWOUNDS": "24'' 6 3+ 6 0 1",
+    "HeavyFlamer-IGNORESCOVER-TORRENT": "12'' D6 N/A 5 -1 1",
+    "HeavyPlasmaCannonStandard-BLAST": "36'' D3 3+ 7 -2 2",
+    "HeavyPlasmaCannonSupercharge-BLAST-HAZARDOUS": "36'' D3 3+ 8 -3 3",
+    "MissileLauncherFrag-BLAST": "48'' D6 3+ 4 0 1",
+    "MissileLauncherKrak": "48'' 1 3+ 9 -2 D6",
+    "MultiMelta-MELTA2": "18'' 2 3+ 9 -4 D6",
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "TwinLascannon-TWINLINKED": "48'' 1 3+ 12 -3 D6+1",
+    "ArmouredFeet": "Melee 5 3+ 6 0 1",
+    "DreadnoughtCombatWeapon": "Melee 5 3+ 12 -2 3",
+    "img": "../assets/gk/gk13.png"
+  },
+  {
+    "name": "InterceptorSquad",
+    "InterceptorSquad": "M6 T4 Sv2+ W2 Ld6+ OC1",
+    "cost-125-250": 125,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 3+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 3+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "CloseCombatWeapon": "Melee 3 3+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 3 3+ 6 -2 2",
+    "img": "../assets/gk/gk14.png"
+  },
+  {
+    "name": "NemesisDreadknight",
+    "NemesisDreadknight": "M8 T8 Sv2+/4++ W13 Ld6+ OC4",
+    "cost": 210,
+    "GatlingPsilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 12 3+ 6 0 1",
+    "HeavyIncinerator-IGNORESCOVER-TORRENT": "18'' 2D6 N/A 6 -1 1",
+    "HeavyPsycannon-IGNORESCOVER-PSYCHIC": "24'' 6 3+ 10 -2 3",
+    "Dreadfists": "Melee 6 3+ 6 -1 1",
+    "NemesisDaemonGreathammer-PSYCHIC": "Melee 5 3+ 14 -3 D6+1",
+    "NemesisGreatswordSweep-PSYCHIC": "Melee 10 2+ 5 -1 1",
+    "NemesisGreatswordStrike-PSYCHIC": "Melee 5 2+ 10 -2 D6",
+    "img": "../assets/gk/gk15.png"
+  },
+  {
+    "name": "PaladinSquad",
+    "PaladinSquad": "M5 T5 Sv2+/4++ W3 Ld6+ OC1",
+    "cost-215-430": 215,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 2+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 2+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 2+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 4 2+ 6 -2 2",
+    "img": "../assets/gk/gk16.png"
+  },
+  {
+    "name": "PurgationSquad",
+    "PurgationSquad": "M6 T4 Sv2+ W2 Ld6+ OC1",
+    "cost-120-240": 120,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 3+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 3+ 8 -1 2",
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "CloseCombatWeapon": "Melee 3 3+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 3 3+ 6 -2 2",
+    "img": "../assets/gk/gk17.png"
+  },
+  {
+    "name": "PurifierSquad",
+    "PurifierSquad": "M6 T4 Sv2+ W2 Ld6+ OC1",
+    "cost-125-250": 125,
+    "Incinerator-IGNORESCOVER-TORRENT": "12'' D6 N/A 6 -1 1",
+    "Psilencer-PSYCHIC-SUSTAINEDHITS1": "24'' 6 3+ 5 0 1",
+    "Psycannon-PSYCHIC": "24'' 3 3+ 8 -1 2",
+    "PurifyingFlame-ANTIINFANTRY2+-IGNORESCOVER-PSYCHIC": "18'' 1 3+ 4 -1 1",
+    "StormBolter-RAPIDFIRE2": "24'' 2 3+ 4 0 1",
+    "CloseCombatWeapon": "Melee 3 3+ 4 0 1",
+    "NemesisForceWeapon-PSYCHIC": "Melee 3 3+ 6 -2 2",
+    "img": "../assets/gk/gk18.png"
+  },
+  {
+    "name": "Servitors",
+    "Servitors": "M6 T4 Sv4+/6++ W1 Ld8+ OC0",
+    "cost": 50,
+    "HeavyBolter-HEAVY-SUSTAINEDHITS1": "36'' 3 4+ 5 -1 2",
+    "MultiMelta-HEAVY-MELTA2": "18'' 2 4+ 9 -4 D6",
+    "PlasmaCannonStandard-BLAST-HEAVY": "36'' D3 4+ 7 -2 1",
+    "PlasmaCannonSupercharge-BLAST-HAZARDOUS-HEAVY": "36'' D3 4+ 8 -3 2",
+    "ServitorsServoArm": "Melee 1 5+ 6 -2 3",
+    "ServitorsTools": "Melee 1 5+ 3 0 1",
+    "img": "../assets/gk/gk19.png"
+  }
+]

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const resultadoDiv = document.getElementById("resultado");
+  const resultadoDiv = document.getElementById("resultadoArmy");
   const checkboxes = document.querySelectorAll(
-    '.dropdown-content input[type="checkbox"]'
+    '.dropdown-content-army input[type="checkbox"]'
   );
 
   // Funciones de persistencia (declaradas al nivel superior)
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const savedUnits = JSON.parse(localStorage.getItem("savedUnits")) || {};
     Object.values(savedUnits).forEach((unitData) => {
       const unit = unitData.data;
-      if (unitData && unitData.data?.name) {
+      if (unitData && unitData.data?.name && unitData.data?.description) {
         addUnitToResults(unitData.data);
       } // Restaurar estados de propiedades ocultas
       if (unitData.hiddenProps) {
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const propValue = document.createElement("div");
       propValue.id = `prop-${unit.name}-${prop}`;
       propValue.className = "unit-prop";
-      if (prop === "img") {
+      if (prop === "stratagems" || prop === "description") {
         const img = document.createElement("img");
         img.src = unit[prop];
         img.alt = unit.name;
@@ -182,15 +182,17 @@ document.addEventListener("DOMContentLoaded", () => {
   checkboxes.forEach((checkbox) => {
     checkbox.addEventListener("change", async function () {
       const name = this.value;
-      const resultadoDiv = document.getElementById("resultado");
+      const resultadoDiv = document.getElementById("resultadoArmy");
 
       try {
-        const response = await fetch("../assets/am/astramilitarum.json");
+        const response = await fetch("../assets/gk/greyknightsarmy.json");
         if (!response.ok) throw new Error("HTTP error");
         const data = await response.json();
 
         if (this.checked) {
-          const selectedUnit = data.find((unit) => unit?.name === name);
+          const selectedUnit = data.find(
+            (unit) => unit?.name === name && unit?.description
+          );
           if (!selectedUnit) {
             console.error(`Unidad "${name}" no encontrada`);
             return;
