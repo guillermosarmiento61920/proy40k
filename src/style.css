@@ -34,7 +34,7 @@ main.seleccionMain {
   border: 1px solid #ddd;
   z-index: 1;
   padding: 10px;
-  width: 200px;
+  width: 60vw;
 }
 
 .dropdown-content label {
@@ -53,7 +53,7 @@ main.seleccionMain {
   border: 1px solid #ddd;
   z-index: 1;
   padding: 10px;
-  width: 200px;
+  width: 60vw;
 }
 
 .dropdown-content-army label {
@@ -139,7 +139,7 @@ pre {
 }
 
 .unit-image {
-  max-width: 60vw;
+  max-width: 80vw;
   height: auto;
   display: block;
   margin: 10px 0;
