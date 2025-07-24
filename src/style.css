@@ -91,6 +91,8 @@ pre {
   align-items: center;
   cursor: pointer;
   font-weight: bold;
+  background-color: #0f0b95;
+  color: white;
 }
 
 .toggle-props {
@@ -143,4 +145,47 @@ pre {
   height: auto;
   display: block;
   margin: 10px 0;
+}
+
+/* para el boton que tiene links relativos */
+.fixed-header {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+#indexBtn {
+  padding: 8px 12px;
+  background-color: #0c4077;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.index-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+.index-menu.hidden {
+  display: none;
+}
+
+.index-menu a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin: 4px 0;
+}
+
+.index-menu a:hover {
+  text-decoration: underline;
 }

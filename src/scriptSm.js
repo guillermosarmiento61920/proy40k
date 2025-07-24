@@ -207,4 +207,53 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  const indexBtn = document.getElementById("indexBtn");
+  const indexMenu = document.getElementById("indexMenu");
+
+  indexBtn.addEventListener("click", () => {
+    indexMenu.classList.toggle("hidden");
+  });
+
+  function updateIndexMenu() {
+    const savedUnits = JSON.parse(localStorage.getItem("savedUnits") || "{}");
+    indexMenu.innerHTML = ""; // Limpiar índice
+
+    Object.keys(savedUnits).forEach((name) => {
+      const link = document.createElement("a");
+      link.href = `#unit-${name}`;
+      link.textContent = name;
+      indexMenu.appendChild(link);
+    });
+
+    // Si no hay unidades, mostrar mensaje
+    if (Object.keys(savedUnits).length === 0) {
+      indexMenu.textContent = "No hay unidades guardadas";
+    }
+  }
+
+  // Actualizar cada vez que se agrega o quita una unidad
+  function saveToLocalStorage(name, unit) {
+    const savedUnits = JSON.parse(localStorage.getItem("savedUnits") || "{}");
+    savedUnits[name] = {
+      data: unit,
+      hiddenProps: Array.from(
+        document.querySelectorAll(
+          `#unit-${name} input[type="checkbox"]:not(:checked)`
+        )
+      ).map((checkbox) => checkbox.value),
+    };
+    localStorage.setItem("savedUnits", JSON.stringify(savedUnits));
+    updateIndexMenu(); // 🔑 nuevo
+  }
+
+  function removeFromLocalStorage(name) {
+    const savedUnits = JSON.parse(localStorage.getItem("savedUnits")) || {};
+    delete savedUnits[name];
+    localStorage.setItem("savedUnits", JSON.stringify(savedUnits));
+    updateIndexMenu(); // 🔑 nuevo
+  }
+
+  loadSavedResults();
+  updateIndexMenu(); // 🔑 inicial
 });
