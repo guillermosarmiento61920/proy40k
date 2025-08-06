@@ -21,7 +21,7 @@
   {
     "name": "BrotherhoodChaplain",
     "BrotherhoodChaplain": "M5 T5 Sv2+/4++ W5 Ld5+ OC1",
-    "cost": 75,
+    "cost": 65,
     "StormBolter-RAPIDFIRE2": "24'' A2 BS3+ S4 AP0 D1",
     "CroziusArcanum-PSYCHIC": "Melee A5 BS2+ S6 AP-1 D2",
     "img": "../assets/gk/gk4.png"
@@ -95,7 +95,7 @@
   {
     "name": "BrotherhoodTerminatorSquad",
     "BrotherhoodTerminatorSquad": "M5 T5 Sv2+/4++ W3 Ld6+ OC2",
-    "cost-170-200-330-400": 200,
+    "cost-160-200-320-400": 200,
     "Incinerator-IGNORESCOVER-TORRENT": "12'' AD6 BSN/A S6 AP-1 D1",
     "Psilencer-PRECISION-PSYCHIC-SUSTAINEDHITS1": "24'' A6 BS3+ S5 AP0 D1",
     "Psycannon-PSYCHIC": "24'' A3 BS3+ S8 AP-1 D2",
@@ -143,7 +143,7 @@
   {
     "name": "NemesisDreadknight",
     "NemesisDreadknight": "M8 T8 Sv2+/4++ W13 Ld6+ OC4",
-    "cost": 205,
+    "cost": 210,
     "GatlingPsilencer-PSYCHIC-SUSTAINEDHITS1": "24'' A12 BS3+ S6 AP0 D1",
     "HeavyIncinerator-IGNORESCOVER-TORRENT": "18'' A2D6 BSN/A S6 AP-1 D1",
     "HeavyPsycannon-IGNORESCOVER-PSYCHIC": "24'' A6 BS3+ S10 AP-2 D3",
@@ -156,7 +156,7 @@
   {
     "name": "PaladinSquad",
     "PaladinSquad": "M5 T5 Sv2+/4++ W3 Ld6+ OC1",
-    "cost-190-225-375-480": 225,
+    "cost-180-225-360-450": 225,
     "Incinerator-IGNORESCOVER-TORRENT": "12'' AD6 BSN/A S6 AP-1 D1",
     "Psilencer-PRECISION-PSYCHIC-SUSTAINEDHITS1": "24'' A6 BS2+ S5 AP0 D1",
     "Psycannon-PSYCHIC": "24'' A3 BS2+ S8 AP-1 D2",
