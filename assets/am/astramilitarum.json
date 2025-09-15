@@ -99,7 +99,7 @@
   {
     "name": "LordSolarLeontus",
     "LordSolarLeontus": "M12 T4 Sv3+/4++ W8 Ld6+ OC2",
-    "cost": 150,
+    "cost": 130,
     "SolsRighteousGaze-PISTOL": "12'' A2 BS2+ S8 AP-2 D2",
     "Conquest": "Melee A6 BS2+ S6 AP-2 D2",
     "KonstantinsHooves-EXTRAATTACKS": "Melee A2 BS4+ S4 AP0 D1",
@@ -129,7 +129,7 @@
   {
     "name": "RogalDornCommander",
     "RogalDornCommander": "M10 T12 Sv2+ W18 Ld7+ OC5",
-    "cost": 265,
+    "cost": 275,
     "CastigatorGatlingCannon": "24'' A12 BS4+ S5 AP0 D1",
     "CoaxialAutocannon": "48'' A2 BS4+ S9 AP-1 D3",
     "HeavyBolter-SUSTAINEDHITS1": "36'' A3 BS4+ S5 AP-1 D2",
@@ -281,7 +281,7 @@
   {
     "name": "Baneblade",
     "Baneblade": "M12 T13 Sv2+ W24 Ld7+ OC8",
-    "cost": 480,
+    "cost": 450,
     "BanebladeCannon-BLAST": "72'' A3D6 BS4+ S12 AP-2 D3",
     "CoaxialAutocannon": "48'' A2 BS4+ S9 AP-1 D3",
     "DemolisherCannon-BLAST": "24'' AD6+3 BS4+ S14 AP-3 DD6",
@@ -402,7 +402,7 @@
   {
     "name": "KriegCombatEngineers",
     "KriegCombatEngineers": "M6 T3 Sv4+ W1 Ld7+ OC1",
-    "cost-70-95": 70,
+    "cost-60-95": 60,
     "AutoPistol-PISTOL": "12'' A1 BS4+ S3 AP0 D1",
     "BoltPistol-PISTOL": "12'' A1 BS4+ S4 AP0 D1",
     "CombatShotgun-ASSAULT": "12'' A2 BS4+ S4 AP0 D1",
@@ -562,7 +562,7 @@
   {
     "name": "RogalDornBattleTank",
     "RogalDornBattleTank": "M10 T12 Sv2+ W18 Ld7+ OC5",
-    "cost": 240,
+    "cost": 250,
     "CastigatorGatlingCannon": "24'' A12 BS4+ S5 AP0 D1",
     "CoaxialAutocannon": "48'' A2 BS4+ S9 AP-1 D3",
     "HeavyBolter-SUSTAINEDHITS1": "36'' A3 BS4+ S5 AP-1 D2",

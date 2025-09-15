@@ -192,7 +192,7 @@
   {
     "name": "LandRaider",
     "LandRaider": "M10 T12 Sv2+ W16 Ld6+ OC5",
-    "cost": 240,
+    "cost": 220,
     "GodhammerLascannon": "48'' A2 BS3+ S12 AP-3 DD6+1",
     "HunterKillerMissile-ONESHOT": "48'' A1 BS2+ S14 AP-3 D6",
     "MultiMelta-MELTA2": "18'' A2 BS3+ S9 AP-4 DD6",
@@ -216,7 +216,7 @@
   {
     "name": "LandRaiderRedeemer",
     "LandRaiderRedeemer": "M12 T12 Sv2+ W16 Ld6+ OC5",
-    "cost": 285,
+    "cost": 270,
     "FlamestormCannon-IGNORESCOVER-TORRENT": "12'' AD6+3 BSN/A S6 AP-2 D2",
     "HunterKillerMissile-ONESHOT": "48'' A1 BS2+ S14 AP-3 D6",
     "MultiMelta-MELTA2": "18'' A2 BS3+ S9 AP-4 DD6",
