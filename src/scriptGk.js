@@ -141,13 +141,55 @@ document.addEventListener("DOMContentLoaded", () => {
         img.alt = unit.name;
         img.className = "unit-image"; // Podés estilizarlo con CSS si querés
         propValue.appendChild(img);
-      } else {
+      } else if (
+        prop === "name" ||
+        prop === unit.name ||
+        prop === "cost" ||
+        prop.startsWith("cost-")
+      ) {
+        propValue.textContent = `${prop}: ${unit[prop]}`;
+      }
+      // Si parece ser un arma (por descarte)
+      else {
+        const weaponContainer = document.createElement("div");
+        weaponContainer.className = "weapon-item";
+
+        // Cuadradito numérico
+        const numberBox = document.createElement("input");
+        numberBox.type = "number";
+        numberBox.min = 0;
+        numberBox.className = "weapon-count";
+
+        // Cargar valor guardado
+        const savedUnits = JSON.parse(
+          localStorage.getItem("savedUnits") || "{}"
+        );
+        const savedCount = savedUnits[unit.name]?.weaponCounts?.[prop] ?? 0;
+        numberBox.value = savedCount;
+
+        // Evento de guardado
+        numberBox.addEventListener("input", () => {
+          saveWeaponCount(unit.name, prop, Number(numberBox.value));
+        });
+
+        // Texto con nombre y perfil del arma
+        const weaponInfo = document.createElement("span");
+        weaponInfo.className = "weapon-name";
+        weaponInfo.textContent = `${prop}: ${unit[prop]}`;
+
+        weaponContainer.appendChild(numberBox);
+        weaponContainer.appendChild(weaponInfo);
+        propValue.appendChild(weaponContainer);
+      }
+
+      /*} else {
         propValue.textContent = `${prop}: ${JSON.stringify(
           unit[prop],
           null,
           2
         )}`;
-      }
+      }*/
+
       propValue.style.display = loadHiddenProps(unit.name, prop)
         ? "none"
         : "block";
@@ -235,6 +277,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Actualizar cada vez que se agrega o quita una unidad
   function saveToLocalStorage(name, unit) {
     const savedUnits = JSON.parse(localStorage.getItem("savedUnits") || "{}");
+    const existing = savedUnits[name] || {};
     savedUnits[name] = {
       data: unit,
       hiddenProps: Array.from(
@@ -242,18 +285,30 @@ document.addEventListener("DOMContentLoaded", () => {
           `#unit-${name} input[type="checkbox"]:not(:checked)`
         )
       ).map((checkbox) => checkbox.value),
+      weaponCounts: existing.weaponCounts || {}, // conserva los números guardados
     };
     localStorage.setItem("savedUnits", JSON.stringify(savedUnits));
-    updateIndexMenu(); // 🔑 nuevo
+    updateIndexMenu();
   }
 
   function removeFromLocalStorage(name) {
     const savedUnits = JSON.parse(localStorage.getItem("savedUnits")) || {};
     delete savedUnits[name];
     localStorage.setItem("savedUnits", JSON.stringify(savedUnits));
-    updateIndexMenu(); // 🔑 nuevo
+    updateIndexMenu();
+  }
+
+  function saveWeaponCount(unitName, weaponName, count) {
+    const savedUnits = JSON.parse(localStorage.getItem("savedUnits") || "{}");
+    if (!savedUnits[unitName])
+      savedUnits[unitName] = { data: {}, weaponCounts: {} };
+
+    savedUnits[unitName].weaponCounts = savedUnits[unitName].weaponCounts || {};
+    savedUnits[unitName].weaponCounts[weaponName] = count;
+
+    localStorage.setItem("savedUnits", JSON.stringify(savedUnits));
   }
 
   loadSavedResults();
-  updateIndexMenu(); // 🔑 inicial
+  updateIndexMenu();
 });

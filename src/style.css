@@ -189,3 +189,31 @@ pre {
 .index-menu a:hover {
   text-decoration: underline;
 }
+
+.weapon-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+
+.weapon-count {
+  width: 36px;
+  height: 24px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  font-size: 0.9em;
+}
+
+.weapon-count:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.weapon-name {
+  flex: 1;
+  font-family: monospace;
+}
