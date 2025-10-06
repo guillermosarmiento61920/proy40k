@@ -260,7 +260,7 @@
     "HeavyMortar-BLAST-HEAVY-INDIRECTFIRE": "48'' AD6+3 BS5+ S8 AP-1 D2",
     "HeavyQuadLauncher-BLAST-HEAVY-INDIRECTFIRE-TWINLINKED": "48'' A2D6 BS5+ S5 AP0 D1",
     "Lasgun-RAPIDFIRE1": "24'' A1 BS4+ S3 AP0 D1",
-    "MultipleRocketLauncher-ANTIINFANTRY3+-BLAST-HEAVY-INDIRECTFIRE": "48'' AD6+3 BS5+ S2 AP-1 D1",
+    "MultipleRocketLauncher-ANTIINFANTRY3-BLAST-HEAVY-INDIRECTFIRE": "48'' AD6+3 BS5+ S2 AP-1 D1",
     "SiegeCannon-BLAST-HEAVY-INDIRECTFIRE": "48'' AD6 BS5+ S12 AP-2 D3",
     "CrewCloseCombatWeapons": "Melee A3 BS4+ S3 AP0 D1",
     "img": "../assets/am/am18.png"
@@ -356,7 +356,7 @@
     "name": "Hellhound",
     "Hellhound": "M10 T10 Sv2+ W11 Ld7+ OC3",
     "cost": 125,
-    "ChemCannon-ANTIINFANTRY2+-TORRENT": "12'' AD6+1 BSN/A S2 AP-2 D2",
+    "ChemCannon-ANTIINFANTRY2-TORRENT": "12'' AD6+1 BSN/A S2 AP-2 D2",
     "HeavyBolter-SUSTAINEDHITS1": "36'' A3 BS4+ S5 AP-1 D2",
     "HeavyFlamer-TORRENT-IGNORESCOVER": "12'' AD6 BSN/A S5 AP-1 D1",
     "Hunter-killerMissile-ONESHOT": "48'' A1 BS4+ S14 AP-3 DD6",
@@ -555,7 +555,7 @@
     "HeavyBolter-SUSTAINEDHITS1": "36'' A3 BS4+ S5 AP-1 D2",
     "HeavyFlamer-TORRENT-IGNORESCOVER": "12'' AD6 BSN/A S5 AP-1 D1",
     "Hunter-killerMissile-ONESHOT": "48'' A1 BS4+ S14 AP-3 DD6",
-    "StormEagleRockets-ANTIINFANTRY2+-BLAST-INDIRECTFIRE": "120'' AD6 BS4+ S7 AP-2 D3",
+    "StormEagleRockets-ANTIINFANTRY2-BLAST-INDIRECTFIRE": "120'' AD6 BS4+ S7 AP-2 D3",
     "ArmouredTracks": "Melee A3 BS4+ S6 AP0 D1",
     "img": "../assets/am/am37.png"
   },
