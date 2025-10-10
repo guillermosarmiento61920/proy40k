@@ -7,7 +7,7 @@
     "name": "HallowedConclave",
     "description": "../assets/gk/gkdet1.png",
     "EyeOfTheAugurium-25pts": "GREY KNIGHTS model only. Once per battle round, the bearer can use this Enhancement. If it does, you can target the bearer's unit with the Fire Overwatch or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.",
-    "InescapableJudgement(Psychic)-20pts": "GREY KNIGHTS model only. Each time an enemy unit within Engagement Range of the bearer's unit Falls Back, the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks.",
+    "InescapableJudgement-PSYCHIC-20pts": "GREY KNIGHTS model only. Each time an enemy unit within Engagement Range of the bearer's unit Falls Back, the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks.",
     "SancticReaper-15pts": "GREY KNIGHTS TERMINATOR model only. Add 3 to the Attacks characteristic of the bearer's melee weapons.",
     "NemesisRounds-10pts": "GREY KNIGHTS TERMINATOR model only. Each time you target the bearer's unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem.",
     "stratagems": "../assets/gk/gkstrg1.png"
@@ -15,7 +15,7 @@
   {
     "name": "BrotherhoodStrike",
     "description": "../assets/gk/gkdet2.png",
-    "BanishingWave(Psychic)-20pts": "GREY KNIGTS model only. Each time the bearer's unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12'' of the bearer: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds.",
+    "BanishingWave-PSYCHIC-20pts": "GREY KNIGTS model only. Each time the bearer's unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12'' of the bearer: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds.",
     "BlindingAura-10pts": "GREY KNIGHTS model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
     "PurityOfPurpose-15pts": "GREY KNIGHTS model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit.",
     "TomeOfForbiddenWays-25pts": "GREY KNIGHTS model only. While the bearer is on the battlefield or in Strategis Reserves, add 1 to the number of units from your army that you can select for the Gate of Infinity rule.",
@@ -45,7 +45,7 @@
     "SigilOfTheHunt-10pts": "GREY KNIGHTS model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1.",
     "EphemeralTome-15pts": "GREY KNIGHTS INFANTRY model only. At the start of your Shooting phase, if the bearer's unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, the bearer's unit can make a Normal move of up to D6'', and until the end of the turn, the bearer's unit is not eligible to declare a charge.",
     "Sixty-SixthSeal-25pts": "GREY KNIGHTS model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
-    "Pyresoul(Psychic)-20pts": "GREY KNIGHTS model only. At the start of your Shooting phase, the bearer can use this Enhancement. If it does, seleect one enemy unit within 23'' of and visible to the bearer; that unit suffers D3 mortal wounds.",
+    "Pyresoul-PSYCHIC-20pts": "GREY KNIGHTS model only. At the start of your Shooting phase, the bearer can use this Enhancement. If it does, seleect one enemy unit within 23'' of and visible to the bearer; that unit suffers D3 mortal wounds.",
     "stratagems": "../assets/gk/gkstrg5.png"
   },
   {
