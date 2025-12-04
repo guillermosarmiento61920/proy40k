@@ -127,6 +127,16 @@
     "img": "../assets/am/am8.png"
   },
   {
+    "name": "PrimarisPsyker",
+    "PrimarisPsyker": "M6 T3 Sv5+ W3 Ld7+ OC1",
+    "cost": 60,
+    "Laspistol-PISTOL": "12'' A1 BS3+ S3 AP0 D1",
+    "PsychicMaelstromWitchfire-BLAST-DEVASTATINGWOUNDS-PSYCHIC": "18'' AD6 BS3+ S5 AP-2 D1",
+    "PsychicMaelstromFocusedWitchfire-BLAST-DEVASTATINGWOUNDS-HAZARDOUS-PSYCHIC": "18'' AD6+1 BS3+ S6 AP-2 D2",
+    "ForceWeapon-PSYCHIC": "Melee A3 BS4+ S6 AP-1 DD3",
+    "img": "../assets/am/am44.png"
+  },
+  {
     "name": "RogalDornCommander",
     "RogalDornCommander": "M10 T12 Sv2+ W18 Ld7+ OC5",
     "cost": 275,
@@ -339,6 +349,13 @@
     "Mortar-BLAST-HEAVY-INDIRECTFIRE": "48'' AD6 BS5+ S5 AP0 D1",
     "WeaponsTeamCloseCombatWeapons": "Melee A2 BS4+ S3 AP0 D1",
     "img": "../assets/am/am41.png"
+  },
+  {
+    "name": "CyclopsDemolitionVehicle",
+    "CyclopsDemolitionVehicle": "M8 T4 Sv3+ W4 Ld8+ OC0",
+    "cost": 25,
+    "None": "-",
+    "img": "../assets/am/am43.png"
   },
   {
     "name": "FieldOrdnanceBattery",
@@ -591,6 +608,17 @@
     "CloseCombatWeapon": "Melee A2 BS4+ S6 AP0 D1",
     "SentinelChainsaw": "Melee A3 BS4+ S6 AP-1 D1",
     "img": "../assets/am/am39.png"
+  },
+  {
+    "name": "Shadowsword",
+    "Shadowsword": "M12 T13 Sv2+ W24 Ld7+ OC8",
+    "cost": 410,
+    "Lascannon": "48'' A1 BS4+ S12 AP-3 DD6+1",
+    "TwinHeavyBolter-SUSTAINEDHITS1-TWINLINKED": "36'' A3 BS4+ S5 AP-1 D2",
+    "TwinHeavyFlamer-TORRENT-IGNORESCOVER-TWINLINKED": "12'' AD6 BSN/A S5 AP-1 D1",
+    "VolcanoCannon-BLAST-HEAVY": "96'' AD3+1 BS4+ S24 AP-5 D12",
+    "ArmouredTracks": "Melee A6 BS4+ S8 AP0 D1",
+    "img": "../assets/am/am45.png"
   },
   {
     "name": "TempestusScions",
