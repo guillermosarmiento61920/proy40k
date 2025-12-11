@@ -131,7 +131,7 @@
   {
     "name": "InterceptorSquad",
     "InterceptorSquad": "M12 T4 Sv2+ W2 Ld6+ OC1",
-    "cost-130-260": 130,
+    "cost-125-250": 125,
     "Incinerator-IGNORESCOVER-TORRENT": "12'' AD6 BSN/A S6 AP-1 D1",
     "Psilencer-PRECISION-PSYCHIC-SUSTAINEDHITS1": "24'' A6 BS3+ S5 AP0 D1",
     "Psycannon-PSYCHIC": "24'' A3 BS3+ S8 AP-1 D2",
@@ -167,7 +167,7 @@
   {
     "name": "PurgationSquad",
     "PurgationSquad": "M6 T4 Sv2+ W2 Ld6+ OC1",
-    "cost-125-250": 125,
+    "cost-115-230": 115,
     "Incinerator-IGNORESCOVER-TORRENT": "12'' AD6 BSN/A S6 AP-1 D1",
     "Psilencer-PRECISION-PSYCHIC-SUSTAINEDHITS1": "24'' A6 BS3+ S5 AP0 D1",
     "Psycannon-PSYCHIC": "24'' A3 BS3+ S8 AP-1 D2",
