@@ -139,7 +139,7 @@
   {
     "name": "RogalDornCommander",
     "RogalDornCommander": "M10 T12 Sv2+ W18 Ld7+ OC5",
-    "cost": 275,
+    "cost": 290,
     "CastigatorGatlingCannon": "24'' A12 BS4+ S5 AP0 D1",
     "CoaxialAutocannon": "48'' A2 BS4+ S9 AP-1 D3",
     "HeavyBolter-SUSTAINEDHITS1": "36'' A3 BS4+ S5 AP-1 D2",
@@ -579,7 +579,7 @@
   {
     "name": "RogalDornBattleTank",
     "RogalDornBattleTank": "M10 T12 Sv2+ W18 Ld7+ OC5",
-    "cost": 250,
+    "cost": 260,
     "CastigatorGatlingCannon": "24'' A12 BS4+ S5 AP0 D1",
     "CoaxialAutocannon": "48'' A2 BS4+ S9 AP-1 D3",
     "HeavyBolter-SUSTAINEDHITS1": "36'' A3 BS4+ S5 AP-1 D2",

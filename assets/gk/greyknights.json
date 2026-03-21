@@ -95,7 +95,7 @@
   {
     "name": "BrotherhoodTerminatorSquad",
     "BrotherhoodTerminatorSquad": "M5 T5 Sv2+/4++ W3 Ld6+ OC2",
-    "cost-160-200-320-400": 200,
+    "cost-150-185-300-375": 185,
     "Incinerator-IGNORESCOVER-TORRENT": "12'' AD6 BSN/A S6 AP-1 D1",
     "Psilencer-PRECISION-PSYCHIC-SUSTAINEDHITS1": "24'' A6 BS3+ S5 AP0 D1",
     "Psycannon-PSYCHIC": "24'' A3 BS3+ S8 AP-1 D2",
