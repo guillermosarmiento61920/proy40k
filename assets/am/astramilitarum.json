@@ -49,6 +49,25 @@
     "img": "../assets/am/am4.png"
   },
   {
+    "name": "CommissarGravesOnFoot",
+    "CommissarGravesOnFoot": "M6 T3 Sv4+/5++ W4 Ld6+ OC1",
+    "cost": 65,
+    "BoltPistol-PISTOL": "12'' A1 BS2+ S4 AP0 D1",
+    "PowerSwordAndManusMortis": "Melee A5 BS2+ S6 AP-2 D2",
+    "img": "../assets/am/am47.png"
+  },
+  {
+    "name": "CommissarYarrick",
+    "CommissarYarrick": "M6 T4 Sv4+/4++ W5 Ld6+ OC1",
+    "cost": 150,
+    "BaleEye-PRECISION": "12'' A2 BS2+ S6 AP-2 D3+1",
+    "Laspistol-PISTOL": "12'' A1 BS2+ S3 AP0 D1",
+    "StormBolter-RAPIDFIRE2": "24'' A2 BS2+ S4 AP0 D1",
+    "PowerKlaw": "Melee A4 BS2+ S8 AP-2 D2",
+    "PowerSword": "Melee A6 BS2+ S4 AP-2 D1",
+    "img": "../assets/am/am49.png"
+  },
+  {
     "name": "KriegCommandSquad",
     "LordCommissar": "M6 T3 Sv5+ W3 Ld6+ OC1",
     "VeteranGuardsman": "M6 T3 Sv5+ W1 Ld7+ OC1",
@@ -210,6 +229,14 @@
     "img": "../assets/am/am13.png"
   },
   {
+    "name": "CentaurRSV",
+    "CentaurRSV": "M12 T7 Sv3+ W10 Ld7+ OC2",
+    "cost": 85,
+    "PintleMountedHeavyStubber-RAPIDFIRE3": "36'' A3 BS4+ S4 AP0 D1",
+    "ArmouredHull": "Melee A3 BS4+ S6 AP0 D1",
+    "img": "../assets/am/am46.png"
+  },
+  {
     "name": "Chimera",
     "Chimera": "M10 T9 Sv3+ W11 Ld7+ OC2",
     "cost": 85,
@@ -351,6 +378,17 @@
     "img": "../assets/am/am41.png"
   },
   {
+    "name": "CommissarGraves",
+    "CommissarGraves": "M12 T8 Sv3+/4++ W12 Ld6+ OC5",
+    "cost": 110,
+    "ChironGatlingCannon": "24'' A12 BS3+ S5 AP0 D1",
+    "PrefectusHeavyStubber-RAPIDFIRE3": "36'' A3 BS3+ S5 AP0 D1",
+    "ArmouredHull-EXTRAATTACKS": "Melee A3 BS4+ S6 AP0 D1",
+    "EnforcerCrew-EXTRAATTACKS": "Melee A10 BS4+ S3 AP0 D1",
+    "PowerSwordAndManusMortis-LANCE": "Melee A5 BS2+ S6 AP-2 D2",
+    "img": "../assets/am/am48.png"
+  },
+  {
     "name": "CyclopsDemolitionVehicle",
     "CyclopsDemolitionVehicle": "M8 T4 Sv3+ W4 Ld8+ OC0",
     "cost": 25,
@@ -382,6 +420,19 @@
     "MultiMelta-MELTA2": "18'' A2 BS4+ S9 AP-4 DD6",
     "ArmouredTracks": "Melee A3 BS4+ S6 AP0 D1",
     "img": "../assets/am/am25.png"
+  },
+  {
+    "name": "HippogriffAFV",
+    "HippogriffAFV": "M12 T8 Sv3+ W7 Ld7+ OC2",
+    "cost-70-140": 70,
+    "ChironGatlingCannon-ASSAULT": "24'' A12 BS4+ S5 AP0 D1",
+    "HeavyLascannon-ASSAULT": "48'' A1 BS4+ S12 AP-3 DD6+1",
+    "HeavyStubber-ASSAULT-RAPIDFIRE3": "36'' AD3 BS4+ S4 AP0 D1",
+    "MeltaCannon-ASSAULT-MELTA2": "18'' AD2 BS4+ S9 AP-4 DD6",
+    "Meltagun-ASSAULT-MELTA2": "12'' A1 BS4+ S9 AP-4 DD6",
+    "VigilatorCannon-ASSAULT-BLAST": "36'' AD6 BS4+ S8 AP-1 D2",
+    "ArmouredHull": "Melee A3 BS4+ S5 AP0 D1",
+    "img": "../assets/am/am50.png"
   },
   {
     "name": "Hydra",

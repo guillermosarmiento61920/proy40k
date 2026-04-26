@@ -65,5 +65,23 @@
     "specOpsVeteran-15pts": "ASTRA MILITARUM INFANTRY OFFICER model only. Each time you select an Order for the bearer to issue, you can select the Order below: MOVE TO THE SHADOWS (Order): Each time a ranged attack targets this unit, until those attacks are resolved, models in this unit have the Stealth ability.",
     "laudHailer-10pts": "ASTRA MILITARUM OFFICER model only. Each time you select a unit for this OFFICER model to issue an Order to, that unit can be within 12'' instead of within 6''.",
     "stratagems": "../assets/am/amstrg7.png"
+  },
+  {
+    "name": "steelHammer",
+    "description": "../assets/am/amdet8.png",
+    "battalionCommander-30pts": "ASTRA MILITARUM TITANIC CHARACTER model only. The bearer has the Voice of Command ability and the OFFICER keyword, and can issue up to 2 Orders to ASTRA MILITARUM TITANIC and SQUADRON units.",
+    "titanKiller-20pts": "ASTRA MILITARUM TITANIC CHARACTER model only. Each time the bearer makes a ranged attack, you can re-roll the Damage roll.",
+    "engineSpeaker-15pts": "ASTRA MILITARUM TECH-PRUEST ENGINSEER model only. Each t ime the bearer uses its Omnissiahs Blessing ability, until the start of your next Command phase, add 3'' to the Move characteristic of the selected VEHICLE model.",
+    "assaultHatches-25pts": "ASTRA MILITARUM TITANIC CHARACTER TRANSPORT model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+    "stratagems": "../assets/am/amstrg8.png"
+  },
+  {
+    "name": "armouredInfantry",
+    "description": "../assets/am/amdet9.png",
+    "exemplaryOfficer-20pts": "INFANTRY OFFICECR model only. Each time the bearer issues an Order to its own unit, you can select up to two other PLATOON units within 3'' of the bearer's unit. That Order is also issued to each of those units.",
+    "masterManoeuvrist-15pts": "INFANTRY OFFICER model only. Ath the end of your opponent's Fight phase, if the bearer's unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3'' of an ASTRA MILITARUM TRANSPORT from your army, it can embark within thatt TRANSPORT.",
+    "omnissianUnguents-AURA-35pts": "ASTRA MILILTARUM TECH-PRUEST ENGINSEER model only. While a friendly ARMOURED SKIRMISHER unit is within 3'' of the bearer, that unit has the Feel No Pain 5+ ability.",
+    "grandStrategist-25pts": "OFFICER model only. After both players have deployed their armies, if the bearer's unit (or any TRANSPORT it is embarked within) is on the battlefield, select up to two units with the REGIMENT or SQUADRON keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+    "stratagems": "../assets/am/amstrg9.png"
   }
 ]
