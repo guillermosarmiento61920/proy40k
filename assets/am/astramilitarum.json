@@ -363,6 +363,22 @@
     "WeaponsTeamCloseCombatWeapons": "Melee A2 BS4+ S3 AP0 D1",
     "img": "../assets/am/am23.png"
   },
+   {
+    "name": "CadianReconSquad",
+    "CadianReconSquad": "M6 T3 Sv5+ W1 Ld7+ OC1",
+    "cost": 80,
+    "Autostubber-RAPIDFIRE3": "24'' A3 BS4+ S4 AP0 D1",
+    "Lasgun-ASSAULT-RAPIDFIRE1": "24'' A1 BS4+ S3 AP0 D1",
+    "Laspistol-PISTOL": "12'' A1 BS4+ S3 AP0 D1",
+    "Longlas-HEAVY-PRECISION": "36'' A1 BS4+ S4 AP-2 D2",
+    "Meltagun-MELTA2": "12'' A1 BS4+ S9 AP-4 DD6",
+    "MissileLauncherFrag-BLAST-HEAVY": "48'' AD6 BS5+ S4 AP0 D1",
+    "MissileLauncherKrak-HEAVY": "48'' A1 BS5+ S9 AP-2 DD6",
+    "PlasmaGunStandard-RAPIDFIRE1": "24'' A1 BS4+ S7 AP-2 D1",
+    "PlasmaGunSupercharge-RAPIDFIRE1-HAZARDOUS": "24'' A1 BS4+ S8 AP-3 D2",
+    "CloseCombatWeapons": "Melee A1 BS4+ S3 AP0 D1",
+    "img": "../assets/am/am51.png"
+  },
   {
     "name": "CatachanHeavyWeaponsSquad",
     "CatachanHeavyWeaponsSquad": "M6 T3 Sv5+ W2 Ld7+ OC2",
