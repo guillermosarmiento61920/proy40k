@@ -49,6 +49,17 @@
     "img": "../assets/am/am4.png"
   },
   {
+    "name": "CommissarGraves",
+    "CommissarGraves": "M12 T8 Sv3+/4++ W12 Ld6+ OC5",
+    "cost": 110,
+    "ChironGatlingCannon": "24'' A12 BS3+ S5 AP0 D1",
+    "PrefectusHeavyStubber-RAPIDFIRE3": "36'' A3 BS3+ S5 AP0 D1",
+    "ArmouredHull-EXTRAATTACKS": "Melee A3 BS4+ S6 AP0 D1",
+    "EnforcerCrew-EXTRAATTACKS": "Melee A10 BS4+ S3 AP0 D1",
+    "PowerSwordAndManusMortis-LANCE": "Melee A5 BS2+ S6 AP-2 D2",
+    "img": "../assets/am/am48.png"
+  },
+  {
     "name": "CommissarGravesOnFoot",
     "CommissarGravesOnFoot": "M6 T3 Sv4+/5++ W4 Ld6+ OC1",
     "cost": 65,
@@ -363,7 +374,7 @@
     "WeaponsTeamCloseCombatWeapons": "Melee A2 BS4+ S3 AP0 D1",
     "img": "../assets/am/am23.png"
   },
-   {
+  {
     "name": "CadianReconSquad",
     "CadianReconSquad": "M6 T3 Sv5+ W1 Ld7+ OC1",
     "cost": 80,
@@ -392,17 +403,6 @@
     "Mortar-BLAST-HEAVY-INDIRECTFIRE": "48'' AD6 BS5+ S5 AP0 D1",
     "WeaponsTeamCloseCombatWeapons": "Melee A2 BS4+ S3 AP0 D1",
     "img": "../assets/am/am41.png"
-  },
-  {
-    "name": "CommissarGraves",
-    "CommissarGraves": "M12 T8 Sv3+/4++ W12 Ld6+ OC5",
-    "cost": 110,
-    "ChironGatlingCannon": "24'' A12 BS3+ S5 AP0 D1",
-    "PrefectusHeavyStubber-RAPIDFIRE3": "36'' A3 BS3+ S5 AP0 D1",
-    "ArmouredHull-EXTRAATTACKS": "Melee A3 BS4+ S6 AP0 D1",
-    "EnforcerCrew-EXTRAATTACKS": "Melee A10 BS4+ S3 AP0 D1",
-    "PowerSwordAndManusMortis-LANCE": "Melee A5 BS2+ S6 AP-2 D2",
-    "img": "../assets/am/am48.png"
   },
   {
     "name": "CyclopsDemolitionVehicle",
@@ -442,8 +442,8 @@
     "HippogriffAFV": "M12 T8 Sv3+ W7 Ld7+ OC2",
     "cost-70-140": 70,
     "ChironGatlingCannon-ASSAULT": "24'' A12 BS4+ S5 AP0 D1",
-    "HeavyLascannon-ASSAULT": "48'' A1 BS4+ S12 AP-3 DD6+1",
     "HeavyStubber-ASSAULT-RAPIDFIRE3": "36'' AD3 BS4+ S4 AP0 D1",
+    "Lascannon-ASSAULT": "48'' A1 BS4+ S12 AP-3 DD6+1",
     "MeltaCannon-ASSAULT-MELTA2": "18'' AD2 BS4+ S9 AP-4 DD6",
     "Meltagun-ASSAULT-MELTA2": "12'' A1 BS4+ S9 AP-4 DD6",
     "VigilatorCannon-ASSAULT-BLAST": "36'' AD6 BS4+ S8 AP-1 D2",
