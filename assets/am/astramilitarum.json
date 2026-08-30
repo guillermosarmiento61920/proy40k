@@ -79,6 +79,21 @@
     "img": "../assets/am/am49.png"
   },
   {
+    "name": "GauntsGhosts",
+    "GauntsGhosts": "M6 T3 Sv4+/5++/5+ W3/2 Ld6+/7+ OC1",
+    "cost": 100,
+    "BraggsAutocannon-HEAVY": "48'' A4 BS5+ S9 AP-1 D3",
+    "BoltPistol-PISTOL": "12'' A1 BS2+ S4 AP0 D1",
+    "CorbecsHotshotLascarbine-ASSAULT": "24'' A3 BS3+ S3 AP-1 D1",
+    "LarkingsLonglas-HEAVY-PRECISION": "36'' A1 BS2+ S5 AP-2 D4",
+    "Lascarbine-ASSAULT": "24'' A3 BS3+ S3 AP0 D1",
+    "RawnesLascarbine-ASSAULT-SUSTAINEDHITS1": "24'' A3 BS3+ S3 AP0 D1",
+    "GauntsChainsword": "Melee A5 BS2+ S3 AP-1 D1",
+    "StraightSilverKnife": "Melee A3 BS3+ S3 AP0 D1",
+    "MkollsStraightSilverKnife-DEVASTAGINWOUNDS-PRECISION": "Melee A5 BS2+ S3 AP-1 D1",
+    "img": "../assets/am/am52.png"
+  },
+  {
     "name": "KriegCommandSquad",
     "LordCommissar": "M6 T3 Sv5+ W3 Ld6+ OC1",
     "VeteranGuardsman": "M6 T3 Sv5+ W1 Ld7+ OC1",
@@ -642,6 +657,14 @@
     "StormEagleRockets-ANTIINFANTRY2-BLAST-INDIRECTFIRE": "120'' AD6 BS4+ S7 AP-2 D3",
     "ArmouredTracks": "Melee A3 BS4+ S6 AP0 D1",
     "img": "../assets/am/am37.png"
+  },
+  {
+    "name": "OgrynSquad",
+    "OgrynSquad": "M6 T6 Sv5+ W3 Ld7+ OC1",
+    "cost": 60,
+    "RipperGun-RAPIDFIRE3": "18'' A3 BS4+ S5 AP-1 D2",
+    "RipperGun": "Melee A4 BS3+ S6 AP-1 D1",
+    "img": "../assets/am/am53.png"
   },
   {
     "name": "RogalDornBattleTank",
